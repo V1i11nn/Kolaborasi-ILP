@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'P';
+    src: url('P.otf') format('opentype');
+}
+
+body{
+    font-family: 'P', 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(164, 100, 59);
+}
+
+header{
+    position: fixed;
+}
+
+h2{
+    color: rgb(174, 128, 78);
+    padding: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h3{
+    color: rgb(174, 128, 78);
+    padding: 40px;
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+
+p{
+    color: rgb(214, 162, 105);
+    padding: 40px;
+    margin-top: -70px;
+    margin-bottom: 0px;
+    font-size: smaller;
+    display: flex;
+}
+
+ol{
+    padding: 40px;
+    color: rgb(214, 162, 105);
+    margin-top: -80px;
+    margin-left: 40px;
+    font-size: smaller;
+}
+
+ol.KI{
+    padding: 40px;
+    color: rgb(214, 162, 105);
+    margin-top: -80px;
+    margin-left: 40px;
+    font-size: smaller;
+    white-space: nowrap;
+}
+
+ol.Haha{
+    padding: 40px;
+    color: rgb(214, 162, 105);
+    margin-top: -80px;
+    margin-left: 40px;
+    font-size: smaller;
+}
+
+.right-img{
+    float: right;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -15px;
+    width: 300px;
+    height: auto;
+}
+
+.right-imgj{
+    float: right;
+    margin-left: 159px;
+    margin-right: 15px;
+    margin-top: -30px;
+    width: 300px;
+    height: auto;
+}
+
+.right-imga{
+    float: right;
+    margin-left: 159px;
+    margin-right: 15px;
+    margin-top: -30px;
+    width: 300px;
+    height: auto;
+}
+
+.Satu{
+    display: flex;
+}
+
+ul{
+    width: 200px;
+    list-style-type: none;
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 0;
+    height: 200vh;
+    position: absolute;
+    background-color: #ffe9ac;
+    overflow-y: auto;
+}
+
+li a{
+    display: block;
+    color: rgb(141, 99, 3);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgb(151, 109, 5);
+    color: rgb(255, 230, 141);
+    }
+
+li a.active{
+    background-color: rgb(228, 158, 66);
+    color: rgb(247, 255, 132);
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-content{
+    font-size: smaller;
+    display: none;
+    background-color: #f9c797;
+    padding-left: 10px;  
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a{
+    border-bottom: none;
+}
+
+main {
+    margin-left: 220px;
+    margin-top: 5px;
+    padding: 0;
+    background-color: white;
+    min-height: 200vh;
+}
+
